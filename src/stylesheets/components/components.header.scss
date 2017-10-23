@@ -1,0 +1,28 @@
+
+.header {
+	display: flex;
+	padding: 1em 2em;
+	font-family: $font-family-sans;
+
+	a {
+		text-decoration: none;
+	}
+
+	.container {
+		justify-content: space-between;
+	}
+
+	&__logo {
+		text-transform: uppercase;
+    font-weight: 700;
+	}
+
+
+	&__navigation {
+		
+	}
+
+	&__navigation-item {
+		padding-left: 1em;
+	}
+}
