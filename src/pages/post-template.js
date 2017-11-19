@@ -34,6 +34,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
         html
+        id
         frontmatter {
             date(formatString: "MMMM DD, YYYY")
             author

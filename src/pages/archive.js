@@ -51,7 +51,7 @@ export default function Archive({data}) {
 
 }
 
-export const pageQuery = graphql`
+export const archiveQuery = graphql`
   query ArchiveQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
