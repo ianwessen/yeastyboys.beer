@@ -7,17 +7,17 @@ const Header = () => (
     <section className="header">
         <div className="container">
             <span className="header__logo">
-                <Link to="/">YeastyBoys.beer</Link>
+                <Link to="/">🍺 &nbsp; YeastyBoys.beer</Link>
             </span>
             <div className="header__navigation">
                 <Link to="/about/" className="header__navigation-item">
                     About
                 </Link>
-                <Link to="/counter/" className="header__navigation-item">
-                    Read
-                </Link>
-                <Link to="/page-2/" className="header__navigation-item">
+                <Link to="/contact/" className="header__navigation-item">
                     Contact
+                </Link>
+                <Link to="/archive/" className="header__navigation-item">
+                    Archive
                 </Link>
             </div>
         </div>

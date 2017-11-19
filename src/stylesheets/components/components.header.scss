@@ -4,10 +4,6 @@
 	padding: 1em 2em;
 	font-family: $font-family-sans;
 
-	a {
-		text-decoration: none;
-	}
-
 	.container {
 		justify-content: space-between;
 	}
@@ -15,6 +11,15 @@
 	&__logo {
 		text-transform: uppercase;
     font-weight: 700;
+	}
+
+	&__logo a {
+		padding: .5rem 1rem;
+
+		&:hover {
+			text-decoration: none;
+			background: rgba($hops,.1)
+		}
 	}
 
 

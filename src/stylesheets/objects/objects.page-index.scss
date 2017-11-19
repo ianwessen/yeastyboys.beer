@@ -3,46 +3,35 @@
 
 	padding-top: 0;
 
-	hr {
-		margin: 1em auto;
-		height: 4px;
-		width: 80px;
-		border: 0;
-		background-color: $slate;
-	}
-
 	&__masthead {
-		padding: 6rem 0;
-		margin-bottom: 6rem;
-		background: $wheat;
-		border: 4px double $copper;
+		margin-bottom: 4rem;
+		padding: 8rem 0 8rem;
 	}
 
-	&__preview {
-		width: 580px;
-		margin: 2rem auto 8rem;
+
+
+
+	&__list {
+		max-width: 500px;
+		margin: 0 auto 2rem;
+		padding: 0 2rem;
+		list-style-type: none; 
 	}
 
-	&__preview-title {
-		margin-bottom: 1rem;
+	&__list-item {
+		margin-bottom: 1em;
+		padding: 1em 0;
 	}
 
-	&__preview-body {
-		margin-top: 2rem;
+	&__list-item-subtitle {
+		font-family: $font-family-sans
 	}
 
-	&__row-thirds {
-		display: flex;
-		margin-bottom: 4em;
+	&__list-item-body {
+		font-family: $font-family-sans;
+		font-size: 16px;
+		line-height: 1.5;
+		font-weight: normal;
 	}
 
-	&__preview-mini {
-		flex: 1;
-		&:not(:first-of-type) { margin-left: 2em }
-	}
-
-	&__preview-mini-title {
-		margin-top: 3rem;
-		margin-bottom: 1rem;
-	}
 }

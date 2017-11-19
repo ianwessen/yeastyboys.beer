@@ -77,15 +77,12 @@ label .strong {
 	color: $charcoal;
 }
 
-// caption {
 
-// }
 
 
 // Links
-a 			     { color: $slate; text-decoration: underline }
-a:hover      { color: darken($slate, 10%); }
-
+a 			     { color: $link-color; text-decoration: none }
+a:hover      { color: $link-color; text-decoration: underline; }
 
 
 // Utilities
