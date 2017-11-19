@@ -1,8 +1,17 @@
 module.exports = {
+
+    pathPrefix: '/yeastyboys.beer',
+
     siteMetadata: {
         title: `YeastyBoys.beer`,
     },
+
     plugins: [
+
+        `gatsby-transformer-remark`,
+        `gatsby-plugin-catch-links`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sass`,
 	    {
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -10,13 +19,10 @@ module.exports = {
 				path: `${__dirname}/src/posts`,
 			},
 	    },
-	    `gatsby-transformer-remark`,
-        `gatsby-plugin-catch-links`,
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-sass`,
         {
         	resolve: 'gatsby-transformer-remark',
         	options: []
         }
+
     ]
 }
