@@ -4,24 +4,24 @@ module.exports = {
 
     siteMetadata: {
         title: `YeastyBoys.beer`,
+        author: `Ian Wessen`,
     },
 
     plugins: [
 
-        `gatsby-transformer-remark`,
-        `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-catch-links`,
         `gatsby-plugin-sass`,
-	    {
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				name: `src`,
-				path: `${__dirname}/src/posts`,
-			},
-	    },
         {
-        	resolve: 'gatsby-transformer-remark',
-        	options: []
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/posts`,
+                name: `posts`,
+            },
+        },
+        {
+            resolve: 'gatsby-transformer-remark',
+            options: []
         }
 
     ]

@@ -32,19 +32,18 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             return Promise.reject(result.errors);
         }
 
-        result
-        .data
-        .allMarkdownRemark
-        .edges
-        .forEach( ({ node }) => {
+        result.data.allMarkdownRemark.edges
 
-            createPage({
-                path: node.frontmatter.path,
-                component: blogPostTemplate,
-                context: {} // additional data can be passed via context
-            });
+            .forEach( ({ node }) => {
+
+                createPage({
+                    path: node.frontmatter.path,
+                    component: blogPostTemplate,
+                    context: {}
+                });
 
         });
 
     });
 }
+

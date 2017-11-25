@@ -1,10 +1,10 @@
 
 .header {
-	display: flex;
 	padding: 1em 2em;
 	font-family: $font-family-sans;
 
 	.container {
+		display: flex;
 		justify-content: space-between;
 	}
 

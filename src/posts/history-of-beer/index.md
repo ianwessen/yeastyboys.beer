@@ -1,11 +1,11 @@
 ---
-title: "History of Beer"
-author: "Jax Jones"
 date: "2017-10-30T17:12:33.962Z"
 path: "/history-of-beer"
+title: "History of Beer"
+author: "Jax Jones"
 ---
 
-If you’re searching for an original brewmaster to toast the next time you knock back a cold one, you might be out of luck. It’s difficult to attribute the invention of beer to a particular culture or time period, but the world’s first fermented beverages most likely emerged alongside the development of cereal agriculture some 12,000 years ago.
+*If you’re searching for an original brewmaster to toast the next time you knock back a cold one, you might be out of luck*. It’s difficult to attribute the invention of beer to a particular culture or time period, but the world’s first fermented beverages most likely emerged alongside the development of cereal agriculture some 12,000 years ago.
 
 As hunter-gatherer tribes settled into agrarian civilizations based around staple crops like wheat, rice, barley and maize, they may have also stumbled upon the fermentation process and started brewing beer. In fact, some anthropologists have argued that these early peoples’ insatiable thirst for hooch may have contributed to the Neolithic Revolution by inspiring new agricultural technologies.
 

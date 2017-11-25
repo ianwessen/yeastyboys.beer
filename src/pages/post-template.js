@@ -3,13 +3,13 @@ import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 
 export default function Post({data}) {
-    
+
     const { markdownRemark: post } = data;
 
     return (
         <section className="post-template">
 
-            <Helmet title={`YeastyBoys — ${post.frontmatter.title}`}/>
+            <Helmet title={`YeastyBoys | ${post.frontmatter.title}`}/>
 
             <article className="post-template__container">
                 <h1 className="text-serif post-template__title">{post.frontmatter.title}</h1>
@@ -31,15 +31,16 @@ export default function Post({data}) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-        html
-        id
-        frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            author
-            path
-            title
+    query BlogPostByPath($path: String!) {
+        markdownRemark(frontmatter: { path: { eq: $path } }) {
+            html
+            frontmatter {
+                date(formatString: "MMMM DD, YYYY")
+                path
+                title
+            }
         }
     }
-  } `;
+`
+;
+

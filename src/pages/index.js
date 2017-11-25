@@ -23,33 +23,27 @@ export default function Index({data}) {
             .filter( post => post.node.frontmatter.title.length > 0 )
             .map( ({ node: post }) => {
 
-              return (
+                return (
 
-                <li className="page-index__list-item" key={post.id}>
-                    
-                    <h5 className="text-serif page-index__list-item-title">
-                        <Link to={post.frontmatter.path}>
-                            {post.frontmatter.title}
-                        </Link>
-                    </h5>
-
-                    <p className="page-index__list-item-subtitle">
-                        {post.frontmatter.date}
-                    </p>
-
-                    <p className="page-index__list-item-body">
-                        {post.excerpt}
-                        &nbsp; 
-                        <Link className="link-default" to={post.frontmatter.path}>
-                            Keep reading
-                        </Link>
-                    </p>
-
-                </li>
-
-              );
+                    <li className="page-index__list-item" key={post.id}>
+                        <h5 className="text-serif page-index__list-item-title">
+                            <Link to={post.frontmatter.path}>
+                                {post.frontmatter.title}
+                            </Link>
+                        </h5>
+                        <p className="page-index__list-item-subtitle">
+                            {post.frontmatter.date}
+                        </p>
+                        <p className="page-index__list-item-body">
+                            {post.excerpt}
+                            &nbsp; 
+                            <Link className="link-default" to={post.frontmatter.path}>
+                                Keep reading
+                            </Link>
+                        </p>
+                    </li>
+                );
             })}
-
         </ul>
 
     </section>

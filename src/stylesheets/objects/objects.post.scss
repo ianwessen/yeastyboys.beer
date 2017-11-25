@@ -1,7 +1,7 @@
 
 .post-template {
 
-	width: 30em;
+	width: 35em;
 	margin: 0 auto;
 
 	&__title {
@@ -11,10 +11,10 @@
 
 	&__subtitle {
 		padding: 1rem 2rem;
-		font-size: 16px;
+		font-weight: 600;
+		font-size: 18px;
 		font-family: $font-family-sans;
-		line-height: 1.5;
-		border-left: 4px solid $hops;
+		line-height: 1.4;
 		background: rgba($hops,.15);
 	}
 
@@ -34,6 +34,7 @@
 
 	&__content > p {
 		margin: 1.5em 0;
+		line-height: 1.666;
 	}
 
 	

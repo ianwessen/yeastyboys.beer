@@ -1,8 +1,8 @@
 ---
-title: "How the Camel Got His Hump"
-author: "James Maxwell"
 date: "2017-11-09T17:12:33.962Z"
 path: "/how-the-camel-got-his-hump"
+title: "How the Camel Got His Hump"
+author: "James Moosewell"
 ---
 
 Now this is the next tale, and it tells how the Camel got his big hump.
