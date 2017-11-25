@@ -1,10 +1,13 @@
 const path = require('path');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
+
+    console.log(boundActionCreators)
+    console.log(graphql)
   
   const { createPage } = boundActionCreators;
 
-  const blogPostTemplate = path.resolve(`src/pages/post-template.js`);
+  const postTemplate = path.resolve(`src/pages/post-template.js`);
 
     return graphql(`{
             allMarkdownRemark(
@@ -20,6 +23,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                         date
                         path
                         title
+                        author
                     }
                 }
             }
@@ -38,8 +42,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
                 createPage({
                     path: node.frontmatter.path,
-                    component: blogPostTemplate,
-                    context: {}
+                    component: postTemplate,
+                    context: {
+                        id: node.id
+                    }
                 });
 
         });
