@@ -12,7 +12,7 @@ export default function Post({data}) {
             <Helmet title={`YeastyBoys | ${post.frontmatter.title}`}/>
 
             <article className="post-template__container">
-                <h1 className="text-serif post-template__title">{post.frontmatter.title}</h1>
+                <h1 className="post-template__title text-serif">{post.frontmatter.title}</h1>
                 <p className="post-template__subtitle">
                     <span className="post-template__subtitle-author">
                         {post.frontmatter.author}
@@ -34,6 +34,7 @@ export const pageQuery = graphql`
     query BlogPostByPath($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path } }) {
             html
+            id
             frontmatter {
                 path
                 date(formatString: "MMMM DD, YYYY")
@@ -45,3 +46,19 @@ export const pageQuery = graphql`
 `
 ;
 
+// export const pageQuery = graphql`
+//   query TemplateTutorialMarkdown($slug: String!) {
+//     markdownRemark(fields: {slug: {eq: $slug}}) {
+//       html
+//       frontmatter {
+//         title
+//         next
+//         prev
+//       }
+//       fields {
+//         path
+//         slug
+//       }
+//     }
+//   }
+// `;

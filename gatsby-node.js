@@ -2,9 +2,6 @@ const path = require('path');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
 
-    console.log(boundActionCreators)
-    console.log(graphql)
-  
   const { createPage } = boundActionCreators;
 
   const postTemplate = path.resolve(`src/pages/post-template.js`);

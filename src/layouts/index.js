@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header.js';
+import Footer from '../components/footer.js';
 
 import '../stylesheets/index.scss';
 
@@ -20,6 +21,7 @@ const TemplateWrapper = ({ children }) => (
     <div className="page-container container">
       { children() }
     </div>
+    <Footer />
   </div>
 )
 
