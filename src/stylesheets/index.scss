@@ -9,22 +9,27 @@
 // Components
 // Trumps
 
-@import 'settings/settings.colors.scss';
-@import 'settings/settings.typography.scss';
 
-// @import 'tools/tools.mixins.scss';
-// @import 'tools/tools.function.scss';
+// NO CSS 
 
-@import 'generic/generic.reboot.scss';
-@import 'generic/generic.base.scss';
-@import 'generic/generic.typography.scss';
+@import 'settings.colors.scss';
+@import 'settings.typography.scss';
 
-@import 'objects/objects.grid.scss';
-@import 'objects/objects.post.scss';
-@import 'objects/objects.page.scss';
-@import 'objects/objects.page-index.scss';
-@import 'objects/objects.page-archive.scss';
-@import 'objects/objects.page-about.scss';
+// @import 'tools.mixins.scss';
+// @import 'tools.function.scss';
 
-@import 'components/components.header.scss';
-@import 'components/components.footer.scss';
+// CSS
+
+@import 'generic.reboot.scss';
+@import 'generic.base.scss';
+@import 'generic.typography.scss';
+
+@import 'objects.grid.scss';
+@import 'objects.post.scss';
+@import 'objects.page.scss';
+@import 'objects.page-index.scss';
+@import 'objects.page-archive.scss';
+@import 'objects.page-about.scss';
+
+@import 'components.header.scss';
+@import 'components.footer.scss';
