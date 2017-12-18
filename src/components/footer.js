@@ -13,6 +13,12 @@ const Footer = () => (
                 <span>Does butter have carbs?</span>
                 <h6>Regina George</h6>
             </span>
+            <ul className="footer__list footer__navigation">
+            	<h6>Navigation</h6>
+            	<li className="footer__list-item"><a href="">About</a></li>
+            	<li className="footer__list-item"><a href="">Contact</a></li>
+            	<li className="footer__list-item"><a href="">Archive</a></li>
+            </ul>
         </div>
     </section>
 )

@@ -4,6 +4,8 @@ import Link from 'gatsby-link';
 
 export default function Post({data}) {
 
+    console.log(data)
+
     const { markdownRemark: post } = data;
 
     return (
@@ -27,7 +29,6 @@ export default function Post({data}) {
 
         </section>
     )
-
 }
 
 export const pageQuery = graphql`
@@ -45,20 +46,3 @@ export const pageQuery = graphql`
     }
 `
 ;
-
-// export const pageQuery = graphql`
-//   query TemplateTutorialMarkdown($slug: String!) {
-//     markdownRemark(fields: {slug: {eq: $slug}}) {
-//       html
-//       frontmatter {
-//         title
-//         next
-//         prev
-//       }
-//       fields {
-//         path
-//         slug
-//       }
-//     }
-//   }
-// `;

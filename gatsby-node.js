@@ -1,10 +1,10 @@
 const path = require('path');
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
+exports.createPages = ({ graphql, boundActionCreators }) => {
 
-  const { createPage } = boundActionCreators;
+    const { createPage } = boundActionCreators;
 
-  const postTemplate = path.resolve(`src/pages/post-template.js`);
+    const postTemplate = path.resolve(`src/components/post-template.js`);
 
     return graphql(`{
             allMarkdownRemark(
@@ -41,12 +41,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                     path: node.frontmatter.path,
                     component: postTemplate,
                     context: {
-                        id: node.id
+                        id: node.frontmatter.path
                     }
                 });
 
         });
 
     });
-}
-
+};

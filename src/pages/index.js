@@ -5,9 +5,9 @@ import Helmet from 'react-helmet';
 
 export default function Index({data}) {
 
-  const { edges: posts } = data.allMarkdownRemark;
+    const { edges: posts } = data.allMarkdownRemark;
   
-  return (
+    return (
 
     <section className="page page-index">
 

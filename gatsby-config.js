@@ -3,8 +3,10 @@ module.exports = {
     pathPrefix: '/yeastyboys.beer',
 
     siteMetadata: {
-        title: `YeastyBoys.beer`,
+        title: `YeastyBoys`,
         author: `Ian Wessen`,
+        description: 'Beer and bread.',
+        siteUrl: 'https://www.yeastyboys.beer'
     },
 
     plugins: [
@@ -25,4 +27,4 @@ module.exports = {
         }
 
     ]
-}
+};
