@@ -1,6 +1,6 @@
 module.exports = {
 
-    pathPrefix: '/yeastyboys.beer',
+    // pathPrefix: '/yeastyboys.beer',
 
     siteMetadata: {
         title: `YeastyBoys`,
