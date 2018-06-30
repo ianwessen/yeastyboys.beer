@@ -1,14 +1,18 @@
 
 .footer {
   padding: 4em 2em;
+  width: 720px;
+  margin: 0 auto;
+  max-width: 100%;
   font-family: $font-family-sans;
-  background-color: desaturate($copper,20%);
+  border-top: 1px solid rgba($slate,.1);
+
 
   &,
   & a,
   & h6,
   &__navigation-item {
-    color: $white;
+    color: $slate;
     font-weight: 300;
   }
 

@@ -15,9 +15,9 @@ const Footer = () => (
             </span>
             <ul className="footer__list footer__navigation">
             	<h6>Navigation</h6>
-            	<li className="footer__list-item"><a href="">About</a></li>
-            	<li className="footer__list-item"><a href="">Contact</a></li>
-            	<li className="footer__list-item"><a href="">Archive</a></li>
+            	<li className="footer__list-item"><Link to="/about/">About</Link></li>
+            	<li className="footer__list-item"><Link to="/contact/">Contact</Link></li>
+            	<li className="footer__list-item"><Link to="/archive/">Archive</Link></li>
             </ul>
         </div>
     </section>
