@@ -1,4 +1,4 @@
 # YeastyBoys.beer
 > *The best damn beer on the internet.*
 
-In development, but sneak peeks available at: https://ianwessen.github.io/yeastyboys.beer/
+Testing the waters on Gatsby.js. I'm liking the waters.
