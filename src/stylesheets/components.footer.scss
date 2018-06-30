@@ -1,6 +1,6 @@
 
 .footer {
-  padding: 4em 2em;
+  padding: 4em 0;
   width: 720px;
   margin: 0 auto;
   max-width: 100%;
@@ -21,16 +21,20 @@
     justify-content: space-between;
   }
 
-
+  &__logo {
+    margin-right: auto;
+  }
 
   &__logo span {
     font-size: 24px;
+    color: $hops;
   }
 
   &__logo h6 {
     margin-top: .5rem;
     font-size: 14px;
     font-weight: 600;
+    color: $hops;
     text-transform: uppercase;
   }
 
