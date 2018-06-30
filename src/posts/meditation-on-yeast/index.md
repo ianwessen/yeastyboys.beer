@@ -1,5 +1,5 @@
 ---
-date: "2018-12-02T04:54:33.962Z"
+date: "2017-12-02T04:54:33.962Z"
 path: "/meditation-on-yeast"
 title: "Meditation on yeast"
 author: "Fun Gi"
