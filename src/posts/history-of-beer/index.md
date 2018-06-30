@@ -1,5 +1,5 @@
 ---
-date: "2017-10-30T17:12:33.962Z"
+date: "2017-03-22T10:29:33.962Z"
 path: "/history-of-beer"
 title: "History of beer"
 author: "Coors Light"

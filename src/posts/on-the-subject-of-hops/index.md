@@ -1,5 +1,5 @@
 ---
-date: "2017-11-09T17:12:33.962Z"
+date: "2018-02-11T08:33:33.962Z"
 path: "/on-the-subject-of-hops"
 title: "On the subject of hops"
 author: "Dennis Hopper"
