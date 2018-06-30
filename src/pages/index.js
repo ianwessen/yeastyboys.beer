@@ -12,7 +12,7 @@ export default function Index({data}) {
     <section className="page page-index">
 
         <div className="page-index__masthead">
-            <h1 className="page-index__masthead-title text-center text-serif">YeastyBoys.beer</h1>
+            <h1 className="page-index__masthead-title text-center text-serif">YYYeastyBoys.beer</h1>
             <h5 className="page-index__masthead-subtitle text-center">Beer ▪ Bread ▪ Blog</h5>
         </div>
 
